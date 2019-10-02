@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <!--head-->
+  <head>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="portfolio.CSS" />
+    <title>portfolio:suprim nakarmi</title>
+  </head>
+  <!--body-->
+  <body>
+    <!--logo and menus-->
+    <div class="container">
+      <div class="static">
+        <header>
+          <h1>Suprim Nakarmi</h1>
+          <nav>
+            <ul class="right">
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#project">Project</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+
+          <!--photo and Introduction-->
+          <section class="align">
+            <div class="profile-image-wrapper">
+              <img
+                src="/home/suprim/home/projects/HTML_CSS_day1/20170120_203851.jpg"
+              />
+            </div>
+            <div class="intro_spacing">
+              <h2><b>INTRODUCTION</b></h2>
+              <p>
+                Hi,my name is Suprim Nakarmi and I resently graduated from
+                kathmandu Engineering College with a bachelors degree in
+                Electronics and Communication. Having a profound interest in
+                programming, I learned different languages like JAVA, PYTHON,
+                MATLAB,etc and have applied these languages in few of my
+                personal projects. Apart from programming, I have hands on
+                experience in Intercom installation and operation. Furthurmore,
+                I am a hard working and enthusiastic person who loves to keep
+                learning new things. Some of my hobbies are reading books,
+                singing and yoga.
+              </p>
+              <br />
+              <button class="btn" type="button">Download resume</button>
+            </div>
+          </section>
+          <hr />
+          <!--Education block-->
+          <section class="align">
+            <div class="border_for_blocks">
+              <h2 id="education">Education</h2>
+              <!--List of Qualification-->
+              <ul>
+                <li>
+                  <h3>School Leaving Certificate</h3>
+                </li>
+                <p>Ideal Model School</p>
+                <li>
+                  <h3>Higher Secondary Education Board</h3>
+                </li>
+                <p>Prasadi Academy</p>
+                <li>
+                  <h3>Bachelors in Electronic and communication</h3>
+                </li>
+                <p>Kathmandu Engineering College</p>
+              </ul>
+            </div>
+            <!--experience block-->
+            <div class="border_for_blocks">
+              <h2 id="experience">Experience</h2>
+              <ul>
+                <li>
+                  <h3>Basu traders</h3>
+                </li>
+                <p>as a intercom programmer</p>
+                <p>1 year</p>
+              </ul>
+            </div>
+          </section>
+          <br />
+          <!--skills block-->
+          <div id="skill" class="border_for_blocks inner">
+            <h2>skills</h2>
+            <!--List of Skills  -->
+            <ul>
+              <li>
+                <h3>Java</h3>
+              </li>
+              <progress value="700" max="1000"></progress>
+
+              <li>
+                <h3>Python</h3>
+              </li>
+              <progress value="800" max="1000"></progress>
+              <li>
+                <h3>Matlab</h3>
+              </li>
+              <progress value="700" max="1000"></progress>
+              <li>
+                <h3>Intercom programming</h3>
+              </li>
+              <progress value="900" max="1000"></progress>
+            </ul>
+          </div>
+          <br />
+          <!--project block-->
+          <section class="align">
+            <div class="border_for_blocks" id="project">
+              <h2>Project</h2>
+              <ul>
+                <li>
+                  <h3>Haptic feedback device for visually impaired</h3>
+                </li>
+                <p>
+                  It is a raspberry pi based project which is used to navigate
+                  virtually impaired people on their way by detecting object
+                  ahead of them and recognizing the trained objects.
+                </p>
+                <li>
+                  <h3>Plotclock</h3>
+                </li>
+                <p>
+                  It is a arduino based project which writes and updates time
+                  itself
+                </p>
+              </ul>
+            </div>
+            <!--contact block-->
+            <div class="border_for_blocks" id="contact">
+              <h2>Contact</h2>
+              <ul>
+                <li>
+                  <h3><b>Phone:</b></h3>
+                </li>
+                <p>9840205750</p>
+                <li>
+                  <h3><b>Email:</b></h3>
+                </li>
+                <p>nanjel14@gmail.com</p>
+              </ul>
+              <!--icons to contact in facebook,instagram,etc-->
+              <div class="img_center">
+                <a title="facebook" href="https://www.facebook.com/"
+                  ><img
+                    src="/home/suprim/home/projects/HTML_CSS_day1/fb_icon_325x325.png"
+                    width="25px"
+                    height="25px"
+                /></a>
+                <a title="instagram" href="https://www.instagram.com/"
+                  ><img
+                    src="/home/suprim/home/projects/HTML_CSS_day1/ig-logo-email.png"
+                    width="25px"
+                    height="25px"
+                /></a>
+                <a title="twitter" href="https://www.twitter.com/"
+                  ><img
+                    src="/home/suprim/home/projects/HTML_CSS_day1/Twitternew.jpg"
+                    width="25px"
+                    height="25px"
+                /></a>
+                <a title="linkedin" href="https://www.linkedin.com/"
+                  ><img
+                    src="/home/suprim/home/projects/HTML_CSS_day1/LinkedIn_logo_initials.png"
+                    width="25px"
+                    height="25px"
+                /></a>
+              </div>
+            </div>
+          </section>
+          <br />
+          <hr />
+          <!--footer-->
+          <footer>
+            <p class="tocenter">
+              <b>You can directly message me from here.</b>
+            </p>
+            <!--button to display and hide form-->
+            <input
+              class="btn tocenter"
+              type="button"
+              name="answer"
+              value="Show Form"
+              onclick="hideInfo()"
+              id="showButton"
+            />
+            <!--Display form-->
+            <div id="myDiv" style="display:none;" class="tocenter">
+              <form>
+                Full name:<br />
+                <textarea
+                  class="intro_spacing"
+                  id="name"
+                  rows="1"
+                  cols="50"
+                  placeholder="suprim nakarmi"
+                  onkeypress="removeErr('name')"
+                  required
+                >
+                </textarea>
+                <span id="name-err"></span>
+
+                <br />
+                Email:<br />
+                <textarea
+                  class="intro_spacing"
+                  id="email"
+                  rows="1"
+                  cols="50"
+                  placeholder="you@gmail.com"
+                  onkeypress="removeErr('email')"
+                  required
+                >
+                </textarea>
+
+                <span id="email-err"></span><br />
+                Message:<br />
+                <textarea
+                  class="intro_spacing"
+                  id="message"
+                  rows="10"
+                  cols="50"
+                  onkeypress="removeErr('message')"
+                  placeholder="Write your message"
+                  required
+                ></textarea>
+                <span id="message-err"></span>
+              </form>
+
+              <br />
+              <!--button to send form-->
+              <button class="btn" type="send" onclick="disMessage();">
+                send message
+              </button>
+            </div>
+            <br />
+            <p class="align_text">
+              Copyright&#169; 2019 Suprim Nakarmi| Powered by VisualStudio
+            </p>
+          </footer>
+        </header>
+      </div>
+    </div>
+  </body>
+</html>
